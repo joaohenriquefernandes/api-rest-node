@@ -1,1 +1,8 @@
+#MODULES
 node_modules
+
+# DATABASE
+db/app.db
+
+#ENVIRONMENT VARIABLES
+.env
