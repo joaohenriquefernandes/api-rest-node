@@ -1,1 +1,42 @@
-# api-rest-node
+# <img align="center" alt="API Rest" height="40" width="45" src="https://user-images.githubusercontent.com/25181517/192107858-fe19f043-c502-4009-8c47-476fc89718ad.png"> - NODE API REST
+
+Banking transaction Api developed on Rocketseat Node Ignite trail
+
+## 💻 | Technology
+
+<div style="display: inline_block">
+  <img align="center" alt="Node.js" height="40" width="45" src="https://github.com/devicons/devicon/blob/master/icons/nodejs/nodejs-original.svg">
+  <img align="center" alt="TypeScript" height="40" width="45" src="https://github.com/devicons/devicon/blob/master/icons/typescript/typescript-original.svg">
+  <img align="center" alt="Fastify" height="40" width="45" src="https://user-images.githubusercontent.com/46967826/235814699-7bf7e5ce-19d1-469b-9efe-fe89412349d8.png">
+  <img align="center" alt="SQLite" height="40" width="45" src="https://github.com/devicons/devicon/blob/master/icons/sqlite/sqlite-original.svg">
+  <img align="center" alt="Knex" height="40" width="45" src="https://knexjs.org/knex-logo.png">
+  <img align="center" alt="Vitest" height="40" width="45" src="https://vitest.dev/logo-shadow.svg">
+  <img align="center" alt="ESlint" height="40" width="45" src="https://github.com/devicons/devicon/blob/master/icons/eslint/eslint-original.svg">
+  <img align="center" alt="Git" height="40" width="45" src="https://user-images.githubusercontent.com/25181517/192108372-f71d70ac-7ae6-4c0d-8395-51d8870c2ef0.png">
+</div>
+
+## 👨‍💻 | Running Project
+
+Dependency installs
+
+```bash
+  npm install
+```
+
+Running migrations
+
+```bash
+  npm run knex migrate:latest
+```
+
+Starting project
+
+```bash
+  npm run dev
+```
+
+Running tests
+
+```bash
+  npm test
+```
