@@ -35,6 +35,26 @@ Starting project
   npm run dev
 ```
 
+## 📍 | Routes
+
+| Method | Route                   | Description                  |
+| ------ | ----------------------- | ---------------------------- |
+| `POST` | `/transactions`         | Create a new transaction     |
+| `GET`  | `/transactions`         | List all transactions        |
+| `GET`  | `/transactions/:id`     | Get a specific transaction   |
+| `GET`  | `/transactions/summary` | Get the transactions summary |
+
+## 🟣 | Project Insomnia
+
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=API%20REST%20Node&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fjoaohenriquefernandes%2Fapi-rest-node%2Fmain%2Fexport.json)
+
+## 🧪 | Automated Tests E2E
+
+- [x] Should be able to create a new transaction
+- [x] Should be able to list all transactions
+- [x] Should be able to get a specific transaction
+- [x] Should be able to get the summary
+
 Running tests
 
 ```bash
